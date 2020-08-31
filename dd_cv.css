@@ -35,7 +35,7 @@ sup {
 
 /* Customize some of the sizing variables */
 :root {
-  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-width: 12.5rem; /* Shrink sidebar width  */
   --sidebar-background-color: #f7fbff; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
@@ -83,6 +83,10 @@ sup {
   font-size: 0.75rem;
 }
 
+#aside {
+  padding-top: 30px;
+}
+
 /* Make little circle outline be a light blue */
 .decorator::after {
   background-color: #08306b;
@@ -116,9 +120,13 @@ sup {
 
 /* Add styles for little cards  */
 .info-card{
-  width: 220px;    
-  float: left;    
+  width: 220px;
+  float: left;
   padding: 0.5rem;
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
+}
+
+#contact ul {
+  padding: 0px;
 }
