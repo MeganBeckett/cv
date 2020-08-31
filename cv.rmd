@@ -66,7 +66,6 @@ CV %>% print_contact_info()
 ```
 
 
-
 Language Skills {#skills}
 --------------------------------------------------------------------------------
 
@@ -107,24 +106,21 @@ CV %<>% print_text_block("intro")
 Work Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('industy_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
 ```{r}
 CV %<>% print_section('work_experience')
 ```
 
-<!-- <!-- These breaks just force a new page so section doesnt get cut off --> 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
 
+\pagebreak
 
 Research Positions {data-icon=laptop}
 --------------------------------------------------------------------------------
+
+::: aside
+```{r}
+CV %<>% print_text_block('research_positions_aside')
+```
+:::
 
 ```{r}
 CV %<>% print_section('research_positions')
@@ -134,11 +130,11 @@ CV %<>% print_section('research_positions')
 Other involvement {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('teaching_experience_aside') -->
-<!-- ``` -->
-<!-- ::: -->
+::: aside
+```{r}
+CV %<>% print_text_block('other_involvement_aside')
+```
+:::
 
 ```{r}
 CV %<>% print_section('other_involvement')
@@ -148,55 +144,15 @@ CV %<>% print_section('other_involvement')
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
+::: aside
+```{r}
+CV %<>% print_text_block('education_aside')
+```
+:::
+
 ```{r}
 CV %<>% print_section('education')
 ```
-
-
-
-<!-- Selected Data Science Writing {data-icon=chart-line} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ::: aside -->
-<!-- ```{r} -->
-<!-- CV %<>% print_text_block('data_science_writing_aside') -->
-<!-- ``` -->
-<!-- ::: -->
-
-<!-- ```{r} -->
-<!-- CV %<>% print_section('data_science_writings') -->
-<!-- ``` -->
-
-
-
-<!-- Selected Press (About)  {data-icon=newspaper} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- CV %<>% print_section('about_me_press') -->
-<!-- ``` -->
-
-
-<!-- <br> -->
-<!-- <br> -->
-
-
-<!-- Selected Press (By)  {data-icon=newspaper} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- CV %<>% print_section('by_me_press') -->
-<!-- ``` -->
-
-
-
-<!-- Selected Publications, Posters, and Talks {data-icon=book} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- CV %<>% print_section('academic_articles') -->
-<!-- ``` -->
-
 
 
 <!-- ```{r} -->
