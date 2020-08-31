@@ -1,6 +1,4 @@
 # This file contains all the code needed to parse and print various sections of your CV
-# from data. Feel free to tweak it as you desire!
-
 
 #' Create a CV_Printer object.
 #'
