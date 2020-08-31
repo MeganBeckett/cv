@@ -155,7 +155,7 @@ CV %<>% print_section('education')
 ```
 
 
-<!-- ```{r} -->
-<!-- CV %<>% print_links() -->
-<!-- ``` -->
+```{r}
+CV %<>% print_links()
+```
 
